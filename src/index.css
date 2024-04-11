@@ -1,2 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&display=swap');
+
+:root {
+  --dark-color: #181e1e;
+  --red-color: #e63946;
+  --pink-color: #FF6864;
+  --yellow-color: #FFCA28;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
