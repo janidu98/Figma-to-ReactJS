@@ -1,0 +1,36 @@
+.info{
+    background: var(--dark-color);
+}
+
+.info-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.info .student, .file{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info h3{
+    font-size: 40px;
+}
+
+.info p{
+    font-size: 30px;
+    font-family: 'Alegreya';
+}
+
+.wrapper{
+    position: relative;
+}
+
+.wrapper .iconImg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
