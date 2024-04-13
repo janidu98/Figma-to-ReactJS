@@ -34,3 +34,33 @@
     top: 0;
     left: 0;
 }
+
+
+/* Tablet */
+@media (max-width: 1040px) {
+    .wrapper .iconImg2{
+        right: 44px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 720px) {
+    .dark-gray .info-content{
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .dark-gray h3{
+        font-size: 32px;
+    }
+    
+    .dark-gray p{
+        font-size: 24px;
+    }
+
+    .wrapper .iconImg2{
+        left: 32px;
+    }
+}

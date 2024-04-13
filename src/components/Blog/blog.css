@@ -13,7 +13,7 @@
 }
 
 .posts .post-info{
-    width: 314px;
+    /* width: 314px; */
     height: 239px;
     border-radius: 10px;
     background: white;
@@ -41,7 +41,7 @@
 }
 
 .posts .post-info img{
-    width: 314px;
+    width: 100%;
     height: 159px;
     border-radius: 10px;
     object-fit: cover;
@@ -72,3 +72,28 @@
     margin-top: 30px;
 }
 
+/* Tablet */
+@media (max-width: 1040px) {
+    .posts{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .post-info:nth-child(3){
+        grid-column: 1/3;
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+    .posts{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .post-info:nth-child(3){
+        grid-column: 1/2;
+        width: 100%;
+    }
+}

@@ -20,6 +20,10 @@ const Navbar = () => {
           <a href="#">Testimonials</a>
         </li>
       </ul>
+
+      <div className="menu-icon">
+        <img src="../../src/assets/menuIcon.svg" alt="menu-icon" />
+      </div>
     </nav>
   );
 };

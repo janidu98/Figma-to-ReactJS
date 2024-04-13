@@ -33,3 +33,33 @@ nav .list li a{
     font-weight: 800;
     font-size: 16px;
 }
+
+.menu-icon{
+    display: none;
+}
+
+
+/* Tablet */
+@media (max-width: 1040px) {
+    nav{
+        width: 694px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+    nav ul.list{
+        display: none;
+    }
+
+    nav{
+        width: unset;
+        left: 32px;
+        right: 32px;
+        top: 16px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+}

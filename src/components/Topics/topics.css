@@ -50,3 +50,25 @@
     right: -24px;
     bottom: -24px;
 }
+
+
+/* Tablet */
+
+@media (max-width: 1040px) {
+    .topic-image img{
+        width: 385px;
+        height: 287px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+    .topic-image img{
+        display: none;
+    }
+
+    #topics .iconImg1{
+        right: 32px;
+    }
+}

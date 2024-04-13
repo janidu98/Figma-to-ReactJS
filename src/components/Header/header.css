@@ -61,3 +61,24 @@ header .cta .demo-btn{
     font-size: 16px;
 }
 
+
+/* Tablet */
+@media (max-width: 1040px) {
+  header .cta {
+    width: 356px;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 720px) {
+  header .cta {
+    width: unset;
+    right: 32px;
+    left: 32px;
+  }
+
+  header .cta{
+    font-size: 32px;
+  }
+}
