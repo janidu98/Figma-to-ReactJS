@@ -2,7 +2,7 @@ import './info.css'
 
 const Info = () => {
   return (
-    <section className='dark-gray'>
+    <section className='dark-gray' id='info'>
       <div className="wrapper">
         <div className="info-content">
           <div className="student">
